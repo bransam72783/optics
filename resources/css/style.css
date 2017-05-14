@@ -38,6 +38,10 @@
 		height: 1.5rem;
 	}
 
+	#navmenu {
+		display:none;
+	}
+
 	nav {
 		margin-right:2rem;
 	}
@@ -151,7 +155,6 @@
 
 	footer {
 		display: flex;
-
 		color:black;
 		width: 100%;
 		padding: 4rem;
@@ -178,6 +181,17 @@
 			.container {
 				width:100%;
 			}
+
+
+
+			header {
+				height: 20rem;
+				width: 100%;
+				background-image: url("../img/glasses-bg.png");
+				background-size: cover;
+	}
+
+
 			
 			.headbox {
 				position: static;
@@ -193,8 +207,8 @@
 				height: 1.5rem;
 		}
 
-			nav {
-			margin-right:
+				nav {
+				margin-right:
 		}
 
 			.headbox li {
@@ -215,7 +229,7 @@
 				justify-content: center;
 				align-items: center;
 				position: relative;
-				top:16rem;
+				top:10rem;
 				padding:0.75rem 0.5rem;
 				line-height: 2.2rem;
 				color:black;
@@ -224,21 +238,232 @@
 
 				.iconbox {
 					height: 8rem;
-					width: 33%;
+					width: 100%;
 					margin:3rem auto;
 					align-items: flex-start;
-					justify-content: flex-start;
+					justify-content: center;
 					display:flex;		
 				}
 
 				.aboutusbox {
-				display: flex;
-				flex-direction: row;
-				justify-content: space-around;
-				margin:auto;
-				width: 75%;
-				margin-bottom: 5rem;
-
-			}
+					display: flex;
+					flex-direction: row;
+					justify-content: space-around;
+					margin:auto;
+					width: 75%;
+					margin-bottom: 5rem;
 
 	}
+
+
+
+				.philo span {							
+						margin:1rem 0 4rem 0;
+	}
+				.appoint span{
+						margin:1rem 0 1rem 0;		
+						}
+
+	
+
+				footer {
+					display: flex;
+					justify-content: center;
+					color:black;
+					width: 100%;
+					padding: 3rem;
+					margin:auto;
+					background-color: azure;
+	}
+
+}
+
+	@media only screen and (max-width: 768px){
+
+
+				.container {
+					width: 100%;
+					margin:auto;
+					overflow: hidden;
+				}
+
+				.aboutusbox {
+					display: flex;
+					flex-direction: column;
+					justify-content: space-around;
+					margin:auto;
+					width: 100%;
+					margin-bottom: 5rem;
+	}
+
+				.aboutusbox h4 {
+					text-align: center;
+					width: 90%;
+					margin:auto;
+					color:white;
+					background-color: cadetblue;
+					padding: 0.5rem 4rem 0.5rem 1.25rem;
+	}
+
+				.aboutusbox span {
+					justify-content: center;
+					color:black;
+					margin-top:1rem;
+	}
+
+
+				.philo {
+					width: 100%;
+					display: flex;
+					flex-direction: column;		
+					align-items: center;
+					text-align: left;
+	}
+
+				.appoint {
+					width:100%;
+					display: flex;
+					flex-direction: column;		
+					align-items: center;
+					text-align: left;
+	}
+
+	}
+
+
+
+
+
+
+
+				@media only screen and (max-width:620px){
+
+				.container {
+						width: 100%;
+						margin:auto;
+						overflow: hidden;
+				}
+
+				.container2 {
+						width: 100%;
+						
+						
+				}
+
+
+					header {
+						height: 17rem;
+						width: 100%;
+						background-position: 20%;
+						background-image: url("../img/glasses-bg.png");
+						background-size: cover;
+		}
+
+
+				
+					.headbox {
+						position: static;
+						width:100%;
+						display:flex;				
+						background-color:cadetblue;
+						align-items: center;
+						justify-content: space-between;
+					}
+
+					.headbox span {
+						display:none;
+					}
+
+					.headbox img{
+						margin-left:2rem;
+						margin-right:1rem;
+						height: 1.5rem;
+		}
+
+					nav {
+						display: none;
+		}
+
+					#navmenu {
+						display:flex;
+		}
+
+					#navmenu li {
+						justify-content: flex-end;
+		}
+
+
+					.subheadbox {
+						margin:0;
+						width: 100%;
+						font-size: 0.75rem;
+						display:flex;
+						justify-content: center;
+						align-items: center;
+						position: relative;
+						top:11rem;					
+						line-height: 1.2rem;
+						color:black;
+						background-color: white;
+		}
+
+
+					.subheadbox h1 {
+						font-size: 1rem;
+
+					}
+		
+			
+					.iconbox {	
+						height: auto;					
+						width: 100%;
+						margin:3.77rem auto;
+						align-items: center;
+						justify-content: center;
+						display:flex;						
+						flex-direction: column;
+
+
+
+}
+
+					.box {
+						display: flex;
+						flex-direction: column;
+						justify-content: center;
+						align-items: center;
+						margin:1.54rem;
+
+}
+
+					footer {
+						margin:0;
+						padding:0;
+						display: flex;
+						color:black;
+						width: 100%;
+						padding:4rem 0;						
+						background-color: azure;
+						justify-content: center;
+						align-items: center;
+	}
+
+						footer span{
+							display:none;
+						}
+
+
+					
+						
+						.philo span {							
+							margin:1rem 0 4rem 0;
+	}
+						.appoint span{
+							margin:1rem 0 1rem 0;		
+						}
+
+	
+
+}
+
+
